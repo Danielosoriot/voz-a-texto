@@ -18,7 +18,7 @@ st.subheader("Habla tu mensaje y conviértelo en audio con estilo Anuel")
 
 # --- PORTADA ---
 try:
-    image = Image.open("anuel_portada.png")  # Asegúrate de tener esta imagen en tu carpeta
+    image = Image.open("anuel2.png")  # Asegúrate de tener esta imagen en tu carpeta
     st.image(image, width=300)
 except FileNotFoundError:
     st.warning("No se encontró la imagen de Anuel. ¡Pero el flow sigue intacto!")
